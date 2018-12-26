@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<warperCaja1>
+	<corner>
+		<x>131</x>
+		<y>213</y>
+	</corner>
+	<corner>
+		<x>1803</x>
+		<y>207</y>
+	</corner>
+	<corner>
+		<x>1808</x>
+		<y>874</y>
+	</corner>
+	<corner>
+		<x>143</x>
+		<y>901</y>
+	</corner>
+	<active>0</active>
+</warperCaja1>
+<warperCaja2>
+	<corner>
+		<x>743</x>
+		<y>-2</y>
+	</corner>
+	<corner>
+		<x>926</x>
+		<y>-2</y>
+	</corner>
+	<corner>
+		<x>926</x>
+		<y>184</y>
+	</corner>
+	<corner>
+		<x>743</x>
+		<y>184</y>
+	</corner>
+	<active>0</active>
+</warperCaja2>
+<warperCaja3>
+	<corner>
+		<x>1063</x>
+		<y>0</y>
+	</corner>
+	<corner>
+		<x>1566</x>
+		<y>2</y>
+	</corner>
+	<corner>
+		<x>1572</x>
+		<y>176</y>
+	</corner>
+	<corner>
+		<x>1064</x>
+		<y>171</y>
+	</corner>
+	<active>0</active>
+</warperCaja3>
+<warperCaja11>
+	<corner>
+		<x>203</x>
+		<y>882</y>
+	</corner>
+	<corner>
+		<x>669</x>
+		<y>880</y>
+	</corner>
+	<corner>
+		<x>667</x>
+		<y>1079</y>
+	</corner>
+	<corner>
+		<x>198</x>
+		<y>1079</y>
+	</corner>
+	<active>0</active>
+</warperCaja11>
+<warperCaja12>
+	<corner>
+		<x>691</x>
+		<y>841</y>
+	</corner>
+	<corner>
+		<x>1133</x>
+		<y>840</y>
+	</corner>
+	<corner>
+		<x>1129</x>
+		<y>1040</y>
+	</corner>
+	<corner>
+		<x>690</x>
+		<y>1024</y>
+	</corner>
+	<active>0</active>
+</warperCaja12>
+<warperCaja13>
+	<corner>
+		<x>1112</x>
+		<y>883</y>
+	</corner>
+	<corner>
+		<x>1587</x>
+		<y>883</y>
+	</corner>
+	<corner>
+		<x>1591</x>
+		<y>1079</y>
+	</corner>
+	<corner>
+		<x>1112</x>
+		<y>1079</y>
+	</corner>
+	<active>0</active>
+</warperCaja13>
