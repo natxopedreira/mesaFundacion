@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGLWarper\src\ofxGLWarper.cpp">
+      <Filter>addons\ofxGLWarper\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPoco\src\ofxXmlPoco.cpp">
+      <Filter>addons\ofxPoco\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SheetData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TickTimer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\src\DefaultBitImageCommands.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\src\DefaultCharacterCommands.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\src\DefaultLineSpacingCommands.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\src\DefaultMechanismCommands.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\src\DefaultPrinterStatusCommands.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\src\MiscellaneousCommands.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\src\BitImage.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\src\DefaultSerialPrinter.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\src\ImageUtilsESCPOS.cpp">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\common\dictionary.c">
+      <Filter>addons\ofxIO\libs\brotli\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\bit_reader.c">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\decode.c">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\huffman.c">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\state.c">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\backward_references.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\bit_cost.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\block_splitter.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\brotli_bit_stream.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\cluster.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\compress_fragment.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\compress_fragment_two_pass.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\encode.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\entropy_encode.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\histogram.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\literal_cost.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\memory.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\metablock.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\static_dict.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\utf8_util.c">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\compressor.cc">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\encode_parallel.cc">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\streams.cc">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\lz4\src\lz4.c">
+      <Filter>addons\ofxIO\libs\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\BackoffStrategy.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\Base64Encoding.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\ByteBuffer.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\ByteBufferReader.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\ByteBufferStream.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\ByteBufferUtils.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\ByteBufferWriter.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\COBSEncoding.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\Compression.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\DeviceFilter.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\DirectoryFilter.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\DirectoryUtils.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\DirectoryWatcher.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\DirectoryWatcherManager.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\FileExtensionFilter.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\FilteredStreams.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\Hash.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\HexBinaryEncoding.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\HiddenFileFilter.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\ImageUtils.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\JSONUtils.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\LinkFilter.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\PathFilterCollection.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\PollingThread.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\RecursiveDirectoryIterator.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\RecursiveDirectoryIteratorStategies.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\RegexPathFilter.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\SearchPath.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\SLIPEncoding.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\StreamFilters.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\Thread.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\ThreadsafeLoggerChannel.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\ofxIO\src\URIEncoding.cpp">
+      <Filter>addons\ofxIO\libs\ofxIO\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-c.cc">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-sinksource.cc">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-stubs-internal.cc">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy.cc">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\ofxSerial\src\BufferedSerialDevice.cpp">
+      <Filter>addons\ofxSerial\libs\ofxSerial\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\ofxSerial\src\SerialDevice.cpp">
+      <Filter>addons\ofxSerial\libs\ofxSerial\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\ofxSerial\src\SerialDeviceUtils.cpp">
+      <Filter>addons\ofxSerial\libs\ofxSerial\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\ofxSerial\src\SerialEvents.cpp">
+      <Filter>addons\ofxSerial\libs\ofxSerial\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\serial\src\serial.cc">
+      <Filter>addons\ofxSerial\libs\serial\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\serial\src\impl\unix.cc">
+      <Filter>addons\ofxSerial\libs\serial\src\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\serial\src\impl\win.cc">
+      <Filter>addons\ofxSerial\libs\serial\src\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\serial\src\impl\list_ports\list_ports_linux.cc">
+      <Filter>addons\ofxSerial\libs\serial\src\impl\list_ports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\serial\src\impl\list_ports\list_ports_osx.cc">
+      <Filter>addons\ofxSerial\libs\serial\src\impl\list_ports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSerial\libs\serial\src\impl\list_ports\list_ports_win.cc">
+      <Filter>addons\ofxSerial\libs\serial\src\impl\list_ports</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGLWarper">
+      <UniqueIdentifier>{F4D49AD2-CF35-E035-7669-E9E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGLWarper\src">
+      <UniqueIdentifier>{458EE0D6-E993-0830-FE22-74AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPoco">
+      <UniqueIdentifier>{3256AE3E-9B29-EA27-C842-CE6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPoco\src">
+      <UniqueIdentifier>{C7D4269D-D8A9-A7BB-531B-98DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS">
+      <UniqueIdentifier>{32fa30a2-9e02-4131-b2cd-9b6ca3ee657c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\src">
+      <UniqueIdentifier>{988e8d62-9b4f-4f65-a939-36ed6614fe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs">
+      <UniqueIdentifier>{912adeea-43e3-44f1-a8cd-f95f05cb9334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS">
+      <UniqueIdentifier>{6601280e-f54f-4208-998c-652a415c0fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\Commands">
+      <UniqueIdentifier>{2f7103a8-72e4-4902-aab7-68eccdbba1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\Commands\include">
+      <UniqueIdentifier>{6c0596c5-76a6-4c2a-9351-9a739dfebbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx">
+      <UniqueIdentifier>{ba9551db-8268-4330-b9ee-e8b8a7b0a5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS">
+      <UniqueIdentifier>{b31df636-b4b4-4b8c-8cac-2c6e69ee225d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands">
+      <UniqueIdentifier>{f6999bf5-d9be-40c2-99b1-908d09317a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\Commands\src">
+      <UniqueIdentifier>{28db1efd-b719-4c5a-b22a-fcfdf39b09b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\include">
+      <UniqueIdentifier>{afd7aff3-052d-4fd7-af6d-13ceb7cf1f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\include\ofx">
+      <UniqueIdentifier>{ec0eef8d-73ad-4eda-81c3-a66af81a802a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS">
+      <UniqueIdentifier>{299ccac8-6729-4c8b-b79e-8f031c62e81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxESCPOS\libs\ofxESCPOS\src">
+      <UniqueIdentifier>{f1c89500-be51-4747-8a82-182895ed53ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO">
+      <UniqueIdentifier>{e4c32c9a-9695-46c0-90a4-6c8555f1620d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\src">
+      <UniqueIdentifier>{61292364-c24a-473a-b3a1-59964bce2e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs">
+      <UniqueIdentifier>{4135ad12-dce5-4eb3-86b0-9369ccb29bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\alphanum">
+      <UniqueIdentifier>{e2208126-673f-4200-b1ca-72afc47886d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\alphanum\include">
+      <UniqueIdentifier>{9838a693-1a8d-4bd0-a937-e2e617b159a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\brotli">
+      <UniqueIdentifier>{1abdbb80-46fa-4bbd-a27e-e110919f617b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\brotli\src">
+      <UniqueIdentifier>{e01dcd95-0d5c-4850-9e94-b197e48dfdf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\brotli\src\common">
+      <UniqueIdentifier>{fca580ef-d0f5-4137-a746-54339cb37cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\brotli\src\dec">
+      <UniqueIdentifier>{5117736e-a39d-47db-89eb-3ccd75521305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\brotli\src\enc">
+      <UniqueIdentifier>{5c351fd9-de19-4865-810a-eda69a97e55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\brotli\src\tools">
+      <UniqueIdentifier>{a2138df2-9af4-4c75-8577-8c134e95bfa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\lz4">
+      <UniqueIdentifier>{11006974-12d8-40be-ba55-86ae56e6bf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\lz4\src">
+      <UniqueIdentifier>{578cd6ea-5606-4a65-adbb-8eb2ca4f6c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\ofxIO">
+      <UniqueIdentifier>{3648aa01-2ecb-45d2-ae03-115f4f5a2865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\ofxIO\include">
+      <UniqueIdentifier>{3f8b9767-2216-4b35-b37d-a55df5ea1b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\ofxIO\include\ofx">
+      <UniqueIdentifier>{6e7971f1-7f72-462a-b682-80a666819961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\ofxIO\include\ofx\IO">
+      <UniqueIdentifier>{e497de29-6152-4f3c-9a03-c6720a4ee939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\ofxIO\src">
+      <UniqueIdentifier>{0cf75639-5f08-4e7f-a684-61645eb13a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\snappy">
+      <UniqueIdentifier>{a529c915-2c49-43d3-b66b-2962b55862fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxIO\libs\snappy\src">
+      <UniqueIdentifier>{5f732c21-31a5-4a7a-9c27-2c8b6494e2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial">
+      <UniqueIdentifier>{5fc73203-3663-4c97-bdb2-512a8d4c9d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\src">
+      <UniqueIdentifier>{6b41f266-f9fd-4929-a564-45cc7c84f02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs">
+      <UniqueIdentifier>{53b0f121-3381-4385-a972-f804cabf4b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\ofxSerial">
+      <UniqueIdentifier>{5668f5b8-8164-43c2-94b7-28a0c932c788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\ofxSerial\include">
+      <UniqueIdentifier>{0bec647a-1d95-473c-bb2e-1ba1ac91a8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\ofxSerial\include\ofx">
+      <UniqueIdentifier>{c733b31b-2d01-46f0-805c-d5acd9e8eb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\ofxSerial\include\ofx\IO">
+      <UniqueIdentifier>{dfd782df-b206-407c-a8bd-4bb48695fe8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\ofxSerial\src">
+      <UniqueIdentifier>{3cd5e23d-5116-498d-9b1a-30bfb326caaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\serial">
+      <UniqueIdentifier>{1201b30a-9724-4925-85ae-c14c588a24db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\serial\include">
+      <UniqueIdentifier>{d9c03eb7-66fd-46fa-8650-5b46a0c10ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\serial\include\serial">
+      <UniqueIdentifier>{8d100ed8-f74d-4d85-b39f-fc81c4dc809a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\serial\include\serial\impl">
+      <UniqueIdentifier>{93c08ec6-3c68-4c44-ae57-1374196ffaca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\serial\src">
+      <UniqueIdentifier>{e31a04d8-5007-44cb-a278-2d3cd021a854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\serial\src\impl">
+      <UniqueIdentifier>{ac955c01-d47f-4147-9ead-7375fe65a221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSerial\libs\serial\src\impl\list_ports">
+      <UniqueIdentifier>{b98a3d9e-6e9e-4317-9866-f7386818fbab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGLWarper\src\ofxGLWarper.h">
+      <Filter>addons\ofxGLWarper\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGLWarper\src\ofxHomography.h">
+      <Filter>addons\ofxGLWarper\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPoco\src\ofxXmlPoco.h">
+      <Filter>addons\ofxPoco\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\GameState.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SheetData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StaticSheetData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TickTimer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\src\ofxESCPOS.h">
+      <Filter>addons\ofxESCPOS\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands\DefaultBitImageCommands.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands\DefaultCharacterCommands.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands\DefaultLineSpacingCommands.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands\DefaultMechanismCommands.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands\DefaultPrinterStatusCommands.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands\MiscellaneousCommands.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\Commands\include\ofx\ESCPOS\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS\BaseCodes.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS\BaseTypes.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS\BitImage.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS\DefaultSerialPrinter.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS\ImageUtilsESCPOS.h">
+      <Filter>addons\ofxESCPOS\libs\ofxESCPOS\include\ofx\ESCPOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\src\ofxIO.h">
+      <Filter>addons\ofxIO\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\alphanum\include\alphanum.hpp">
+      <Filter>addons\ofxIO\libs\alphanum\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\common\constants.h">
+      <Filter>addons\ofxIO\libs\brotli\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\common\dictionary.h">
+      <Filter>addons\ofxIO\libs\brotli\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\common\port.h">
+      <Filter>addons\ofxIO\libs\brotli\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\common\types.h">
+      <Filter>addons\ofxIO\libs\brotli\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\bit_reader.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\context.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\decode.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\huffman.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\port.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\prefix.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\state.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\dec\transform.h">
+      <Filter>addons\ofxIO\libs\brotli\src\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\backward_references.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\backward_references_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\bit_cost.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\bit_cost_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\block_encoder_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\block_splitter.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\block_splitter_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\brotli_bit_stream.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\cluster.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\cluster_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\command.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\compressor.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\compress_fragment.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\compress_fragment_two_pass.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\context.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\dictionary_hash.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\encode.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\encode_parallel.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\entropy_encode.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\entropy_encode_static.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\fast_log.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\find_match_length.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\hash.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\hash_forgetful_chain_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\hash_longest_match_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\hash_longest_match_quickly_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\histogram.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\histogram_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\literal_cost.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\memory.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\metablock.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\metablock_inc.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\port.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\prefix.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\quality.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\ringbuffer.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\static_dict.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\static_dict_lut.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\streams.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\utf8_util.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\enc\write_bits.h">
+      <Filter>addons\ofxIO\libs\brotli\src\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\brotli\src\tools\version.h">
+      <Filter>addons\ofxIO\libs\brotli\src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\lz4\src\lz4.h">
+      <Filter>addons\ofxIO\libs\lz4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\AbstractCache.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\DirectoryWatcher.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\LRUCache.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\LRUStrategy.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\ObjectPool.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\RecursiveDirectoryIterator.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\RecursiveDirectoryIteratorImpl.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\RecursiveDirectoryIteratorStategies.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\AbstractTypes.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\BackoffStrategy.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\Base64Encoding.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ByteBuffer.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ByteBufferParser.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ByteBufferReader.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ByteBufferStream.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ByteBufferUtils.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ByteBufferWriter.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\COBSEncoding.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\Compression.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\DeviceFilter.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\DirectoryFilter.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\DirectoryUtils.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\DirectoryWatcherManager.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\FileExtensionFilter.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\FilteredStreams.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\Hash.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\HexBinaryEncoding.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\HiddenFileFilter.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ImageUtils.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\JSONUtils.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\LinkFilter.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ObjectPool.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\PathFilterCollection.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\PollingThread.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\RegexPathFilter.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\SearchPath.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\SLIPEncoding.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\StreamFilters.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\Thread.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ThreadChannel.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\ThreadsafeLoggerChannel.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\ofxIO\include\ofx\IO\URIEncoding.h">
+      <Filter>addons\ofxIO\libs\ofxIO\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-c.h">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-internal.h">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-sinksource.h">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-stubs-internal.h">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy-stubs-public.h">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxIO\libs\snappy\src\snappy.h">
+      <Filter>addons\ofxIO\libs\snappy\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\src\ofxSerial.h">
+      <Filter>addons\ofxSerial\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\ofxSerial\include\ofx\IO\BufferedSerialDevice.h">
+      <Filter>addons\ofxSerial\libs\ofxSerial\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\ofxSerial\include\ofx\IO\PacketSerialDevice.h">
+      <Filter>addons\ofxSerial\libs\ofxSerial\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\ofxSerial\include\ofx\IO\SerialDevice.h">
+      <Filter>addons\ofxSerial\libs\ofxSerial\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\ofxSerial\include\ofx\IO\SerialDeviceUtils.h">
+      <Filter>addons\ofxSerial\libs\ofxSerial\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\ofxSerial\include\ofx\IO\SerialEvents.h">
+      <Filter>addons\ofxSerial\libs\ofxSerial\include\ofx\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\serial\include\serial\serial.h">
+      <Filter>addons\ofxSerial\libs\serial\include\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\serial\include\serial\v8stdint.h">
+      <Filter>addons\ofxSerial\libs\serial\include\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\serial\include\serial\impl\unix.h">
+      <Filter>addons\ofxSerial\libs\serial\include\serial\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSerial\libs\serial\include\serial\impl\win.h">
+      <Filter>addons\ofxSerial\libs\serial\include\serial\impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LEEME.txt">
+      <Filter>src</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

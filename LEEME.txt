@@ -1,0 +1,18 @@
+Gitaneos Varios
+===============
+
+openframeworklib/ofDirectShowPlayer.cpp:407
+	* Eliminado un check para comparar los tamaños de los frames anterior y 
+	siguiente en el video player. Fallaba con el error:
+		- ERROR: SampleCB() - buffer sizes do not match
+
+addons/ofxGlWarper/src/ofGlxWarper.cpp:241
+	* Ñapeado el código para mover las cuatro esquinas de los quads 
+	a la vez para posicionarlos. Quería hacerlo desde ofApp.cpp pero
+	no se porque isActive() siempre devuelve 0, con lo que no había
+	manera de mover solo el quad seleccionado.
+
+ofXmlSettings.cpp:573
+ofXmlSettings.cpp:581
+	* En ofxXmlSettings::setAttribute cambiado sprintf por sprintf_s para
+	evitar segfaults en valores con > 255 cifras.
